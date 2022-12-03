@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.pitsa {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pitsaq {
+    border-right: 5px solid black;
+    padding-right: 200px;
+}
+
+.pizza {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+/* Potato */
+
+.potatoes__btn {
+    padding: 15px 25px;
+    border: 5px solid black;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.potatoes__img {
+    background-color: yellow;
+    padding: 80px;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.potatoes__link > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Tomato */
+
+.tomato__btn {
+    padding: 15px 25px;
+    border: 5px solid black;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tomato__img {
+    background-color: red;
+    padding: 80px;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.tomato__link > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Meat */
+
+.meat__btn {
+    padding: 15px 25px;
+    border: 5px solid black;
+    background-color: brown;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.meat__img {
+    background-color: brown;
+    padding: 80px;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.meat__link > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+
+/* Onion */
+
+.onion__btn {
+    padding: 15px 25px;
+    border: 5px solid black;
+    background-color: #8E5A7E;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.onion__img {
+    background-color: #8E5A7E;
+    padding: 80px;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.onion__link > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+
+/* Js */
+
+.potatoes__img {
+    display: none;
+}
+
+.meat__img {
+    display: none;
+}
+
+.tomato__img {
+    display: none;
+}
+
+/* Dollor */
+
+.dollor {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.dollor__one {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.dollor__two {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.dollor__three {
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+/*  */
+
+.pitsaw__heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.onion__btn-one {
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin-top: 50px;
+}
